@@ -1,0 +1,239 @@
+html {
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+height: 100%;
+}
+
+body{
+	background:#333333 url(images/page-bg.jpg);
+	margin:0px;
+	font: 400 16px 'Lato', sans-serif;
+	color:#fff;
+	font-weight:lighter;
+	height:100%;
+	
+}
+
+
+h1{font: 400 68px 'Lato', sans-serif;  color:#fff; font-weight:lighter; }
+h2{font: 400 23px 'Lato', sans-serif;   color:#fff; font-weight:lighter; }
+h3{font: 400 18px 'Lato', sans-serif;   color:#33cccc; font-weight:lighter; }
+h4{font: 400 14px 'Lato', sans-serif;  color:#33cccc; font-weight:lighter; }
+ul{margin:0px; padding:0px;}
+a {text-decoration:none; color:#fff;}
+a:hover {color:#979797;}
+a img{border:0px;}
+
+
+/****************************************************/
+/* HEADER */
+/****************************************************/
+
+#header{
+	width: 100%;
+	height:50px;
+	background-color:#222222;
+	
+	position: fixed;
+	display: table;
+	margin: 0 auto;
+	text-align: center; 
+}
+#header #main-tabs ul {
+	width: 60%;
+	margin:0 auto 0 auto;
+	margin-left:20%;
+	text-align: center; 
+}
+#header  #main-tabs  ul li{
+	float:left;
+	padding:0;
+	margin:0;
+	list-style:none;
+	
+}
+#header  #main-tabs ul li.home a{
+	border-left: 1px solid #1d1d1d;
+}
+#header #main-tabs   ul li a{
+	display:block;
+	padding:15px 20px;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	border-right: 1px solid #1d1d1d;
+}
+#header  #main-tabs ul li a:hover,
+#header  #main-tabs ul li.selected a{
+background:#333333 url(images/page-bg.jpg);
+	color: #33cccc;
+}
+#header #main-tabs img{
+width:35px; 
+	height:35px;
+	margin:9px 10px; 
+	float:left;
+}
+#header #sm-links{
+    margin-right:30px; allign:left; float:right;
+}
+#headrer #sm-links ul {
+	width: 25%;
+}
+#header #sm-links li{
+	float:right;
+}
+#header #sm-links li a{
+	display:block;
+	text-indent:-9999px;
+	width:26px; 
+	height:26px;
+	margin:13px 10px; 
+}
+#header #sm-links li a.facebook{background:url(images/sm-facebook-icon.png) no-repeat;}
+#header #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
+#header #sm-links li a.google{background:url(images/sm-google-icon.png) no-repeat;}
+#header #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
+#header #sm-links li a.github{background:url(images/sm-github-icon.png) no-repeat;}
+
+
+#wrapper{
+	width:100%;
+	min-height:100%;
+	overflow:auto;
+	margin-bottom:-40px;
+}
+#container{
+	width:80%;
+	margin:25px auto 25px auto;
+	overflow:auto;
+	padding-bottom:50px;
+}
+#home, #about, #experience, #projects , #education,#connect, #hobbies {margin:0px 43px; padding-top:15px;}
+#home .content img{float:left; margin-right:40px; border:2px solid #222222;}
+#connect #form{
+	width:45%;
+	float:left;
+	margin:0 2.5% 0 2.5%;
+}
+#connect #form span{
+	display:block;
+	float:left;
+	width:30%;
+	padding-top:5px;
+	font: 400 14px/16px 'Bree Serif', Georgia, serif;
+	text-align: center;
+}
+#connect #form input{
+	float:left;
+	width:60%;
+	border:0px;
+	color:#fff;
+	padding:10px 10px 10px 30px;
+	font: 400 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+#connect #form textarea{
+	float:left;
+	border:0px;
+	width:60%;
+	height:100px;
+	max-width:60%;
+	padding:10px 10px 10px 30px;
+	font: 400 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#fff;
+}
+#connect #form input.name{background:#222222 url(images/icon-user.png) no-repeat 10px 8px;}
+#connect #form input.email{background:#222222 url(images/icon-mail.png) no-repeat 10px 9px;}
+#connect #form textarea.message{background:#222222 url(images/icon-message.png) no-repeat 10px 8px;}
+#connect #form input.submit{ 
+	width:75px;   
+	height:30px;
+	float:right;
+	padding:0px 0px 5px 0px;
+	margin:10px 16px 0px 0px;
+	background:#222222;
+	color:#3b3b3b;
+	font: 400 14px/16px 'Bree Serif', Georgia, serif;
+}
+#connect #address{
+	margin-top:40px;
+	margin-top: 20px;
+}
+#connect #twitter{
+	width:40%;
+	float:right;
+	margin:0 5% 0 5%;
+}
+
+#hobbies #img-col{
+	width:200px;
+	float:left;
+	height:200px;
+	margin:2.5% 2.5% 2.5% 2.5%;
+	
+}
+
+
+#footer , .push{
+	width: 100%;
+	height:50px;
+	background-color:#222222;
+	margin-bottom:0px;
+	position: fixed;
+	display: table;
+	margin: 0 auto;
+}
+#footer #copyright{
+	
+    width: 400px;
+	margin:0px auto 0px auto;
+	display:inline;
+	float:right;
+	
+}
+
+#footer #follow{
+	
+    width: 400px;
+	margin:0px auto 0px auto;
+	display:inline;
+	
+}
+#footer #follow #fb{
+	margin:5px 5px 0px 5px;
+	float:left;
+	
+}
+#footer #follow #quora{
+	margin:5px 5px 0px 5px;
+	float:left;
+	
+}
+
+
+
+
+/****************************************************/
+/* MISC */
+/****************************************************/
+.top-divider, .bottom-divider{
+	width:100%;
+	height:9px;
+	background:url(images/divider.png) repeat-x;
+	clear:both;
+}
+.top-divider{margin-bottom:40px;}
+.bottom-divider{margin-top:40px;}
+
+.col{
+	width:45%;
+	float:left;
+	margin:0 2.5% 0 2.5%;
+}
+
+.content{ width:95%;margin:0 2.5% 0 2.5%;overflow:auto;}
+
+
