@@ -82,6 +82,10 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
+header .github_cont{
+  opacity: 0.9
+}
+
 /* header social links */
 header .social {
    margin: 24px 0;
@@ -207,9 +211,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 400px;
-   height: 300px;
-   border-radius: 0%;
+   width: 500px;
+   height: 325px;
+   border-radius: 1%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
